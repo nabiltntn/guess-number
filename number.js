@@ -11,10 +11,6 @@ if (Meteor.isClient) {
       found = NumberGame.checkNumber(currentValue)
     } while (currentValue <= maxValue && found == false);
 
-
-
-
-
     if(found) {
       console.log(`Found !!! ${currentValue}`)
     } else {
