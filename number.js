@@ -1,7 +1,7 @@
 if (Meteor.isClient) {
 
   Template.hello.onRendered(() => {
-    let maxValue = 50000
+    let maxValue = 942240
     let currentValue = 10
     let found = false
 
